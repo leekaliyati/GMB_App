@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/silo"
+    tools:context=".Registration"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#eded"
+              android:id="@+id/farmer_name"
+              android:padding="10dp"
+              android:layout_margin="15dp"
+              android:hint="Firstname Lastname"
+              />
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#eded"
+              android:id="@+id/farmer_id"
+              android:padding="10dp"
+              android:layout_margin="15dp"
+              android:hint="National ID"/>
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#eded"
+              android:id="@+id/farmer_address"
+              android:padding="10dp"
+              android:layout_margin="15dp"
+              android:inputType="text"
+              android:hint="Farmer Address"/>
+
+          <EditText
+              android:layout_width="match_parent"
+              android:id="@+id/farmer_phone"
+              android:layout_margin="15dp"
+              android:layout_height="wrap_content"
+              android:background="#eded"
+              android:padding="10dp"
+              android:inputType="phone"
+              android:hint="Phonenumber"/>
+
+          <EditText
+              android:layout_width="match_parent"
+              android:id="@+id/in_password"
+              android:layout_margin="15dp"
+              android:layout_height="wrap_content"
+              android:background="#eded"
+              android:padding="10dp"
+              android:inputType="textPassword"
+              android:hint="Password"/>
+          <EditText
+              android:layout_width="match_parent"
+              android:id="@+id/in_password2"
+              android:layout_margin="15dp"
+              android:layout_height="wrap_content"
+              android:background="#eded"
+              android:padding="10dp"
+              android:inputType="textPassword"
+              android:hint="Confirm Password"/>
+          <Button
+              android:padding="10dp"
+              android:layout_margin="15dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/btn_login"
+              android:text="Next"
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:textAlignment="center"
+              android:textColor="#fff"
+              android:layout_height="wrap_content"
+              android:id="@+id/newUser"
+              android:gravity="center"
+              android:text="Already user?? Signin"/>
+      </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

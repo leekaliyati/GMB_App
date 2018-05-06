@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondStepReg">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eded"
+        android:id="@+id/farmer_account"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:text="National ID"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/farmer_bank"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        android:background="#eded"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:text="Password"/>
+    <Button
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_login"
+        android:text="Login"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:id="@+id/newUser"
+        android:gravity="center"
+        android:text="New user?? Registration"/>
+
+</LinearLayout>

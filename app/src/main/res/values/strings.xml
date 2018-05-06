@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GMB_App</string>
+
+    <string-array name="Grain">
+        <item>Maize </item>
+        <item>Wheat</item>
+        <item>Soya Beans</item>
+        <item>Sun flower</item>
+    </string-array>
+    <string-array name="Banks">
+        <item>CBZ </item>
+        <item>CABS</item>
+        <item>STEWARD</item>
+        <item>BARCLAYS</item>
+        <item>AGRIBANK</item>
+        <item>ZB</item>
+    </string-array>
+    <string-array name="Branch">
+        <item>Bindura </item>
+        <item>Masvingo</item>
+        <item>Mutare</item>
+        <item>Bulawayo</item>
+    </string-array>
+    <string-array name="Deports">
+        <item>Chitungwiza </item>
+        <item>Norton</item>
+        <item>Glendale</item>
+        <item>Hit</item>
+    </string-array>
+</resources>
